@@ -3,9 +3,6 @@ first_value = float(input("To find the sum of two numbers, please enter your fir
 
 second_value = float(input("Now enter your second number "))
 
-#number1=float(number1)
-#number2=float(number2)
-
 result= (first_value + second_value)
 print(f"Your result is {result}" )
 
