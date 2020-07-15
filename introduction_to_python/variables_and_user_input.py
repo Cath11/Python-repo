@@ -1,20 +1,26 @@
 #Q1 Write a program that takes two numbers from the user, and outputs their sum
 first_value = float(input("To find the sum of two numbers, please enter your first number "))
-
-second_value = float(input("Now enter your second number "))
-
+second_value = int(input("Now enter your second number "))
 result= (first_value + second_value)
-print(f"Your result is {result}" )
+if result %1 == 0:
+    print(int(result))
+else:
+    print(float(round(result,1)))
+
 
 
 #Q2 Write a program that takes two numbers from the user,
 # and outputs the equation representing the multiplication of the two numbers
 first = float(input("To find the product of two numbers, please enter your first number "))
-
-second = float(input("Now enter your second number "))
+second = int(input("Now enter your second number "))
 
 result= (first * second)
-print(f"{first} * {second} = {result}")
+if result %1 == 0:
+    print(f"{first} * {second} = {int(result)}")
+else:
+    print(f"{first} * {second}={float(round(result,1))}")
+
+
 
 
 #Q3 Write a program that takes a distance in kms form the user and the output distance is in meters and cms

@@ -48,3 +48,4 @@ for item in groceries:
 
 for index,item in enumerate(groceries):
     print(f"{item[0]:<20} ${item[1]:.2f}")#<20 is left-aligned 20 AND .2f is two floating points
+
