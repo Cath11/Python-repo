@@ -127,6 +127,6 @@ def process_weather(forecast_file):
     return(final_string)
 
 if __name__ == "__main__":
-    print(process_weather("data/forecast_10days.json"))
+    print(process_weather("data/forecast_5days_b.json"))
 
 
